@@ -3,8 +3,14 @@ layout: page
 title: Interactive Figure 1
 permalink: interactive_a
 sidebar: true
-interactive: analysis.html
+interactive: exploratory.html
 ---
+---
+layout: page
+title: Interactive Figure 1
+permalink: interactive_a
+sidebar: true
+interactive: CI.html
 ---
 
 ## Figure Description
