@@ -10,51 +10,18 @@
 # The content below will appear 
 
 title: >
-  Your Paper Title Here
+  Comparing two models for Microtubule Catastrophe
 authors: >
-  Author 1, Author 2, Author 3, Author 4
+  Arun Chakravorty, Sammy Shaker, Jennifer Yu
 Abstract: >
-  This is a general purpose website template for conveying your data, code, and
-  overall scientific story to the general public! See the
-  [GitHub](https://github.com/gchure/reproducible_website) for the actual code
-  used to generate this website, along with lengthy documentation about how to use
-  it. This is meant to be used in tandem with the [GitHub repository template for
-  reproducible research](https://github.com/gchure/reproducible_research). The
-  Rest of this website is filled with dummy text (my favorite, [Hiptser
-  Ipsum](https://hipsum.co/)) for demonstrative purposes. It can even include
-  math like
+  To accomplish various functions in cells, microtubules are dynamic and remodel at the ends of individual microtubules. A catastrophe event is marked by a sudden switch of a growing microtubule into a shortening state. Here we isolate labeled tubulin data to compare two models for microtubule catastrophe. The two models we discuss are the Gamma distribution and a bespoke distribution given by the arrival of two Poisson processes in sequence, with potentially different rate parameters. By generating maximum likelihood estimates (MLE) for the parameters of each model, we determine Akaike information criterion to then compare the models. Based on computed Akaike weights, we find that the Gamma distribution is a better model for the generative distribution for time to catastrophe in microtubules. Finally, we use the Gamma distribution and calculate MLEs for the parameters for each tubulin concentration to visualize any differences across concentrations; we find no clear trend in the model parameters across tubulin concentrations. 
 
-
-  $$S = k_b\ln \Omega. \tag{1}$$
-
-
-
-  Your abstract goes here.
-  Lorem ipsum dolor amet post-ironic aliquip next level vaporware, dolore
-  yuccie trust fund etsy officia blue bottle distillery ad. Raw denim swag
-  selvage wolf, direct trade air plant reprehenderit you probably haven’t heard
-  of them. Aute craft beer cray, pariatur la croix lumbersexual chillwave
-  fashion axe pug adipisicing woke banh mi. Hammock asymmetrical sustainable
-  keffiyeh biodiesel. Banjo trust fund leggings direct trade. Cronut plaid
-  shaman whatever, disrupt ad tofu minim pug dolore forage franzen glossier.
-  Small batch humblebrag ut, artisan health goth edison bulb voluptate lorem
-  dolore chillwave mumblecore iPhone craft beer ex. Enim fingerstache kale
-  chips, VHS succulents butcher meggings woke lo-fi mustache chicharrones chia
-  id consectetur. Gochujang taiyaki incididunt, chartreuse tumblr poutine banjo
-  culpa helvetica eu master cleanse migas umami. Dreamcatcher aliquip hexagon
-  disrupt deep v ugh, banjo truffaut distillery flannel la croix copper mug. Af
-  8-bit tattooed asymmetrical mumblecore swag direct trade iPhone disrupt
-  exercitation mixtape.
 Summary:  >
-  A short summary of your work goes here. Think "significance statement".
-  Nisi bushwick seitan et authentic aute, laboris blog sed in wayfarers lyft
-  plaid ut. Id aesthetic venmo, palo santo aliqua photo booth blue bottle.
-  Meditation non copper mug lomo glossier kombucha. Cred laboris meditation
-  poke sriracha street art letterpress food truck master cleanse adipisicing.
-  Hashtag affogato chambray vaporware subway tile, kogi helvetica ea tacos sint
-  brooklyn. Williamsburg waistcoat raclette seitan glossier messenger bag
-  dolore ramps, flannel magna nisi hot chicken elit pariatur kale chips.
+  In the [Gardner, Zanic, et al paper](http://dx.doi.org/10.1016/j.cell.2011.10.037), the authors compared measurements of microtubule catastrophe times for experiments using fluorescently labeled tubulin and unlabeled tubulin.
+
+  We use this dataset to evaluate our models for microtubule catastrophe. Since it was shown that there is no discernable difference in catastrophe times between labeled and unlabeled tubulin, we exclusively use labeled tubulin data in this analysis. 
+  
+  We observed that microtubule catastrophe is modelled better under a Gamma distribution compared to a bespoke distribution given by the arrival of two Poisson processes in sequence. 
+
 Acknowledgments: > 
-  Who helped you? Share the love! Valeria Rivera, Destiny Roach, Alberto 
-  Fernandez, Trenton Rowland, Sherlyn Frederick, Mallory Irwin, Jazmyn Cohen,
-  Jaylene Page, Kelsey Hayes, Sonny Wilson, Roy Taylor, Ryleigh Daugherty.
+  We thank the Howard lab for providing the data, the entire course staff for BeBi103 for their time and help throughout this course, and Justin Bois for creating this wonderful course. 

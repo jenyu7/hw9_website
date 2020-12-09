@@ -5,19 +5,11 @@ permalink: interactive_a
 sidebar: true
 interactive: final.html
 ---
----
-layout: page
-title: Interactive Figure 1
-permalink: interactive_a
-sidebar: true
-interactive: CI.html
----
 
-## Figure Description
-Below is an example of an embedded interactive figure. It generates
-two-dimensional random walks of 10,000 steps each time the button is clicked.
-Moving the slider shows you in finer detail the position and history of the past
-500 steps.
+## Interactive Figures from Analysis. 
+Below, we included the graphs obtained from our analysis. The first three graphs are from our exploratory analysis. We have an ECDF of the times to catastrophe for each concentration of tubulin. Additionally, we have two strip-box plots, one with jitter and the other without. They give us an idea of the sparsity of data points for times in the 14 uM data compared to the other concentrations. 
+
+Our last two graphs are those of the confidence intervals of beta and alpha parameters with respect to concentration. 
 
 <!-- The below line includes the interactive figure. Do not change! -->
 <center>
