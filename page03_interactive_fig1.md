@@ -4,12 +4,12 @@ title: Interactive Figure 1
 permalink: interactive_a
 sidebar: true
 interactive: test00.html
----
 layout: page
 title: Interactive Figure 1
 permalink: interactive_a
 sidebar: true
 interactive: test0.html
+---
 ---
 
 ## Figure Description
