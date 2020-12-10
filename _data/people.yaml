@@ -9,23 +9,16 @@
 # of the `page01_people.md` file.
 # ##############################################################################
 - author:
-  name: Dr. Osophila
-  link: "https://en.wikipedia.org/wiki/Drosophila"
-  title: Postdoctoral Scholar
+  name: Arun Chakravorty
+  title: Graduate Student
   img: dr_osophila.jpg
-  institute: Bicoid Institute of Development
-  other_info:
-     Email Address: "flyguy@university.edu"
+  institute: Caltech
 - author:
-  name: Dr. Melanie O'Gaster
-  link: "https://en.wikipedia.org/wiki/Drosophila_melanogaster"
-  title: Postdoctoral Scholar
+  name: Jennifer Yu
+  title: Undergraduate Student
   img: melanogaster.jpg
-  institute: French Flag Research Institute
-  other_info:
-    Current Location: Apple Juice Plates, Inc
-
+  institute: Caltech
 - author:
-  name: Sally Monella
-  title: Research Technician
-  institute: French Flag Research Institute
+  name: Sammy Shaker
+  title: Graduate Stident
+  institute: Caltech

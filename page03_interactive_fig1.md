@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Interactive Figure 1
+title: Interactive Figures
 permalink: interactive_a
 sidebar: true
 interactive: final.html
