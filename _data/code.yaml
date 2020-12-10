@@ -1,11 +1,15 @@
 - script:
-  name: script1.py
+  name: analysis.py
   desc: >
-    Super fancy script which calcualate some complicated stuff with
-    well-documented code.
+    Code that runs the analysis for MLE and Confidence intervals in this analysis. Also produces the figures that we analyze later on. 
 - script:
-  name: script2.py
+  name: mle.py
   desc: >
-    Yet another script that does something-or-other.
+    Has the MLE functions that are used in the code. 
+- script:
+  name: reps.py
+  desc: >
+    Draws the bootstrap replicates for the CI analysis. 
+
 
 
